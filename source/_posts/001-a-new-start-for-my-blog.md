@@ -181,5 +181,34 @@ I am not satisfied with the current profile widget, I would like to do the follo
 ```
 
 ## Deploy
-By now, the configuration is almost complete. I still want to tweak more, such as the color of the hyperlinks and so on, but it will take some time for me to do the research because I know nothing about ReactJSX or Stylus, which seem to be different from regular CSS. So this is for now. It's time to deploy it to GitHub and make the blog public and accessible.
+By now, the configuration is almost complete. I still want to tweak more, such as the color of the hyperlinks and so on, but it will take some time for me to do the research because I know nothing about ReactJSX or Stylus, which seem to be different from regular CSS. So this is for now. It's time to deploy it to GitHub and make the blog public and accessible. Create a new repository for the blog. Two branches are required, the `hexo` one for backup the configuration and post, and the `gh-pages` one for the GitHub Pages, the result of the rendering.
 
+Configure the deploy setting at `_config.yaml`
+```yaml ./_config.yaml
+deploy:
+  type: 'git'
+  repo: 'https://github.com/dqwyy/blog'
+  branch: gh-pages
+```
+
+Push to the `hexo` branch.
+```
+git init
+git add -A
+git commit -m "first commit for the blog"
+git remote add origin https://github.com/dqwyy/blog.git
+git branch hexo
+git checkout hexo
+git push origin hexo
+```
+
+Deploy.
+```
+cnpm install hexo-deployer-git --save
+hexo clean && hexo deploy
+```
+
+Then enable the GitHub Pages at the setting panel of the repository, and configure the DNS record of the domain.
+
+## Epilogue
+I won't guarantee to update the blog frequently, but maybe I will try my best to share something here. The language of the post will be in either English or Chinese. I will not use English all the time because my skill doesn't allow me to do that although I hope so. The topics of the posts may be various, like technology, entertainment, science, language and life. [Tags](/tags/) will tell you.
