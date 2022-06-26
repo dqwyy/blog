@@ -202,6 +202,9 @@ widgets:
             Steam:
                 icon: fab fa-steam  #-square
                 url: https://steamcommunity.com/id/dqwyy/
+            Chinese Wikipedia:
+                icon: fab fa-wikipedia-w
+                url: https://zh.wikipedia.org/wiki/User:Dqwyy
 
 
 #    # Table of contents widget configurations

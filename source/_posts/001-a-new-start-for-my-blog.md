@@ -1,15 +1,15 @@
 ---
 title: A New Start For My Blog
 date: 2022-06-25 20:43:15
-tags: technology
 categories: en
+tags: technology
 id: '001'
 ---
 
 ## Background
-I built my blog on July 27, 2017 by using [GitHub Pages](https://pages.github.com/) and [Hexo](https://hexo.io/). After that I post some articles on it, not too many, just 4 posts, then I dropped it. The latest post was post on July 27, 2018. This means that the blog was only active for one year, then it became inactive although it was still online. There are two reasons for this result. One is that I was too lazy to update it, the other is that I tried to write posts in English so that more people can understand, however I am not native English speaker, my English skill is not good enough for me to write posts. Sometimes I have something to write down, I can express it well in Chinese easily but when I try using English, I can't even express what I want to say well.
+I built my blog on July 27, 2017 by using [GitHub Pages](https://pages.github.com/) and [Hexo](https://hexo.io/). After that I post some articles on it, not too many, just 4 posts, then I dropped it. The latest post was post on July 27, 2018. This means that the blog was only active for one year, then it became inactive although it was still online. There are two reasons for this result. One is that I was too lazy to update it, the other is that I tried to write posts in English so that more people can understand, however I am not a native English speaker, my English skill is not good enough for me to write posts. Sometimes I have something to be written down, I can express it well in Chinese easily but when I try using English, I can't even express what I want to say well.
 <!-- MORE -->
-And today, June 25, 2022, after 4 years since the last post, I decide to update my blog. I would call it a *new start*. I am not going to add new posts for it, instead, I am going to delete all the old contents and the rebuild it. One of the reasons is I got bored about [the previous theme](https://github.com/klugjo/hexo-theme-anodyne). I chose a simple theme when I built it, but now I think it is too simple although I like simple stuff, I prefer a more beautiful one. Another reason is that I am not satisfied with some of my post, not all, just some, but I still want to make a new start. I may be regretted if I just delete them so I [archived](https://web.archive.org/web/20211223093307/http://dqwyy.moe/) them at Internet Archive's Wayback Machine, which is a really useful website for archiving. I keep the GitHub repository too. Maybe I will move one of two posts to the new blog someday after doing some editing but not now. For the new theme, I considered using [Minos](https://github.com/ppoffice/hexo-theme-minos) by ppoffice initially but its layout didn't render correctly, some CSS files didn't seem to load successfully. I gave up after several attempts to fix it. Finally I decided to use [Icarus](https://github.com/ppoffice/hexo-theme-icarus), another work by the same author. Besides, I will also change the domain of my blog to a subdomain. I used second-level domain directly for the blog before but now I think it should be used for a home about me page instead, so a `blog.` subdomain is adopted.
+And today, June 25, 2022, after 4 years since the last post, I decide to update my blog. I would call it a *new start*. I am not going to add new posts for it, instead, I am going to delete all the old contents and then rebuild it. One of the reasons is I got bored about [the previous theme](https://github.com/klugjo/hexo-theme-anodyne). I chose a simple theme when I built it, but now I think it is too simple although I like simple stuff, I prefer a more beautiful one. Another reason is that I am not satisfied with some of my post, not all, just some, but I still want to make a new start. I may be regretted if I just delete them so I [archived](https://web.archive.org/web/20211223093307/http://dqwyy.moe/) them at Internet Archive's Wayback Machine, which is a really useful website for archiving. I keep the GitHub repository too. Maybe I will move one of two posts to this new blog someday after doing some editing but not now. For the new theme, I considered using [Minos](https://github.com/ppoffice/hexo-theme-minos) by ppoffice initially but its layout didn't render correctly, some CSS files didn't seem to load successfully. I gave up after several failed attempts to fix it. Finally I decided to use [Icarus](https://github.com/ppoffice/hexo-theme-icarus), another work by the same author. Besides, I will also change the domain of my blog to a subdomain. I used second-level domain directly for the blog before but now I think it should be used for a home about me page instead, so a `blog.` subdomain is adopted.
 
 ## Install and configuration
 Firstly, I created a empty folder for the blog, later actions will be taken in that folder. Locate into the folder, then install Hexo with the following command. I will use [cnpm](http://www.npmmirror.com/) here, which is a mirror site in China for npm, in order to get better Internet connection experience.
@@ -99,6 +99,10 @@ Edit the following files to change font family, font weight and font size. The d
                   return categories;
               })()}
           </span> : null}
+
+          {/* "Read more" button */}
+-         {index && page.excerpt ? <a class="article-more button is-small is-size-7" href={`${url_for(page.link || page.path)}#more`}>{__('article.more')}</a> : null}
++         {index && page.excerpt ? <a class="article-more button is-small is-size-7 is-uppercase" style="font-weight:bold;" href={`${url_for(page.link || page.path)}`}>{__('article.more')}</a> : null}
 ```
 
 ```diff ./themes/icarus/include/style/article.styl
@@ -128,13 +132,13 @@ The default date format is in a relative style, like *x* days ago. This is not m
      if (typeof moment === 'function') {
          $('.article-meta time').each(function() {
 -            $(this).text(moment($(this).attr('datetime')).fromNow());
-+            $(this).text(moment($(this).attr('datetime')).format("MMMM DD, YYYY"));
++            $(this).text(moment($(this).attr('datetime')).format("MMMM D, YYYY"));
          });
      }
 ```
 
 ### Change copyright footer
-The default copyright is "© 2022 dqwyy  Powered by Hexo & Icarus". I don't want to use the copyright symbol here because I would like to release my posts to the Public Domain by using the [Creative Commons Zero](https://creativecommons.org/publicdomain/zero/1.0/) (CC0) license.
+The default copyright footer is "© 2022 dqwyy  Powered by Hexo & Icarus". I don't want to use the copyright symbol here because I would like to release my posts to the Public Domain by using the [Creative Commons Zero](https://creativecommons.org/publicdomain/zero/1.0/) (CC0) license.
 
 ```diff ./themes/icarus/layout/common/footer.jsx
 - <a class="footer-logo is-block mb-2" href={siteUrl}>
@@ -168,7 +172,7 @@ I am not satisfied with the current profile widget, I would like to do the follo
 
 ```diff ./themes/icarus/layout/widget/profile.jsx
 - {author ? <p class="title is-size-4 is-block" style={{'line-height': 'inherit'}}>{author}</p> : null}
-+ {author ? <p class="title is-size-4 is-block" style={{'line-height': 'inherit'}}><b>{author}</b></p> : null}
++ {author ? <p class="title is-size-4 is-block" style={{'line-height': 'inherit'}}><b title="pronounced as Di'kwee  /dɪˈkwiː/">{author}</b></p> : null}
 
 - {authorTitle ? <p class="is-size-6 is-block">{authorTitle}</p> : null}
 + <p class="is-size-6 is-block"><i class="fas fa-envelope mr-1"></i>&#109;&#101;<span style="display:none">佔位</span>&#64;<span style="display:none">PLACEHOLDER</span>&#100;&#113;&#119;&#121;&#121;<span>.</span>&#109;&#111;&#101;</p>

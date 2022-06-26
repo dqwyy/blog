@@ -37,7 +37,7 @@ class Profile extends Component {
                             <figure class="image is-128x128 mx-auto mb-2">
                                 <img class={'avatar' + (avatarRounded ? ' is-rounded' : '')} src={avatar} alt={author} />
                             </figure>
-                            {author ? <p class="title is-size-4 is-block" style={{'line-height': 'inherit'}}><b>{author}</b></p> : null}
+                            {author ? <p class="title is-size-4 is-block" style={{'line-height': 'inherit'}}><b title="pronounced as Di'kwee  /dɪˈkwiː/">{author}</b></p> : null}
                             <p class="is-size-6 is-block"><i class="fas fa-envelope mr-2"></i>&#109;&#101;<span style="display:none">佔位</span>&#64;<span style="display:none">PLACEHOLDER</span>&#100;&#113;&#119;&#121;&#121;<span>.</span>&#109;&#111;&#101;</p>
                             {location ? <p class="is-size-6">
                                 <i class="fas fa-map-marker-alt mr-2"></i>
