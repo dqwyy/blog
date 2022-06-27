@@ -3,10 +3,8 @@ title: A New Start For My Blog
 date: 2022-06-25 20:43:15
 categories: en
 tags: technology
-id: '001'
+id: '0001'
 ---
-
-## Background
 I built my blog on July 27, 2017 by using [GitHub Pages](https://pages.github.com/) and [Hexo](https://hexo.io/). After that I post some articles on it, not too many, just 4 posts, then I dropped it. The latest post was post on July 27, 2018. This means that the blog was only active for one year, then it became inactive although it was still online. There are two reasons for this result. One is that I was too lazy to update it, the other is that I tried to write posts in English so that more people can understand, however I am not a native English speaker, my English skill is not good enough for me to write posts. Sometimes I have something to be written down, I can express it well in Chinese easily but when I try using English, I can't even express what I want to say well.
 <!-- MORE -->
 And today, June 25, 2022, after 4 years since the last post, I decide to update my blog. I would call it a *new start*. I am not going to add new posts for it, instead, I am going to delete all the old contents and then rebuild it. One of the reasons is I got bored about [the previous theme](https://github.com/klugjo/hexo-theme-anodyne). I chose a simple theme when I built it, but now I think it is too simple although I like simple stuff, I prefer a more beautiful one. Another reason is that I am not satisfied with some of my post, not all, just some, but I still want to make a new start. I may be regretted if I just delete them so I [archived](https://web.archive.org/web/20211223093307/http://dqwyy.moe/) them at Internet Archive's Wayback Machine, which is a really useful website for archiving. I keep the GitHub repository too. Maybe I will move one of two posts to this new blog someday after doing some editing but not now. For the new theme, I considered using [Minos](https://github.com/ppoffice/hexo-theme-minos) by ppoffice initially but its layout didn't render correctly, some CSS files didn't seem to load successfully. I gave up after several failed attempts to fix it. Finally I decided to use [Icarus](https://github.com/ppoffice/hexo-theme-icarus), another work by the same author. Besides, I will also change the domain of my blog to a subdomain. I used second-level domain directly for the blog before but now I think it should be used for a home about me page instead, so a `blog.` subdomain is adopted.
@@ -14,7 +12,7 @@ And today, June 25, 2022, after 4 years since the last post, I decide to update 
 ## Install and configuration
 Firstly, I created a empty folder for the blog, later actions will be taken in that folder. Locate into the folder, then install Hexo with the following command. I will use [cnpm](http://www.npmmirror.com/) here, which is a mirror site in China for npm, in order to get better Internet connection experience.
 
-```
+```bash
 npm install -g cnpm --registry=https://registry.npmmirror.com
 sudo cnpm install -g hexo-cli
 hexo init
@@ -23,7 +21,7 @@ cnpm install
 
 Download the theme [Icarus](https://github.com/ppoffice/hexo-theme-icarus) to the theme folder of Hexo and enable it at `_config.yml`. Install dependent packages.
 
-```
+```bash
 cnpm install semver
 cnpm install --save bulma-stylus@0.8.0 hexo@^5.0.2 hexo-log@^2.0.0 hexo-component-inferno@^0.14.0 inferno@^7.3.3 inferno-create-element@^7.3.3
 ```
@@ -70,9 +68,7 @@ Edit the following files to change font family, font weight and font size. The d
 ```
 
 ```diff ./themes/icarus/layout/common/article.jsx
-- {page.title !== '' ? <h1 class="title is-3 is-size-4-mobile">
-+ {page.title !== '' ? <h1 class="title is-3 is-size-4-mobile" style="font-weight:bold;">
-
+  {/* Metadata */}
 - {page.layout !== 'page' ? <div class="article-meta is-size-7 is-uppercase level is-mobile">
 + {page.layout !== 'page' ? <div class="article-meta is-size-7 level is-mobile">
       <div class="level-left">
@@ -82,27 +78,31 @@ Edit the following files to change font family, font weight and font size. The d
               __html: _p('article.created_at', `<time dateTime="${date_xml(page.date)}" title="${new Date(page.date).toLocaleString()}">${date(page.date)}</time>`)
           }}></span>}
 
-          {/* author */}
--         {page.author ? <span class="level-item"> {page.author} </span> : null}
-+         {page.author ? <span class="level-item"><i class="fas fa-user mr-1"></i>{page.author}</span> : null}
-          {/* Categories */}
-          {page.categories && page.categories.length ? <span class="level-item">
-              {(() => {
-                  const categories = [];
-                  page.categories.forEach((category, i) => {
--                     categories.push(<a class="link-muted" href={url_for(category.path)}>{category.name}</a>);
-+                     categories.push(<a class="link-muted" href={url_for(category.path)}><i class="fas fa-globe mr-1"></i>{category.name}</a>);
-                      if (i < page.categories.length - 1) {
-                          categories.push(<span>&nbsp;/&nbsp;</span>);
-                      }
-                  });
-                  return categories;
-              })()}
-          </span> : null}
+  {/* author */}
+- {page.author ? <span class="level-item"> {page.author} </span> : null}
++ {page.author ? <span class="level-item"><i class="fas fa-user mr-1"></i>{page.author}</span> : null}
+  {/* Categories */}
+  {page.categories && page.categories.length ? <span class="level-item">
+      {(() => {
+          const categories = [];
+          page.categories.forEach((category, i) => {
+-             categories.push(<a class="link-muted" href={url_for(category.path)}>{category.name}</a>);
++             categories.push(<a class="link-muted" href={url_for(category.path)}><i class="fas fa-globe mr-1"></i>{category.name}</a>);
+              if (i < page.categories.length - 1) {
+                  categories.push(<span>&nbsp;/&nbsp;</span>);
+              }
+          });
+          return categories;
+      })()}
+  </span> : null}
 
-          {/* "Read more" button */}
--         {index && page.excerpt ? <a class="article-more button is-small is-size-7" href={`${url_for(page.link || page.path)}#more`}>{__('article.more')}</a> : null}
-+         {index && page.excerpt ? <a class="article-more button is-small is-size-7 is-uppercase" style="font-weight:bold;" href={`${url_for(page.link || page.path)}`}>{__('article.more')}</a> : null}
+  {/* Title */}
+- {page.title !== '' ? <h1 class="title is-3 is-size-4-mobile">
++ {page.title !== '' ? <h1 class="title is-3 is-size-3-mobile is-size-2" style="font-weight:bold;">
+
+  {/* "Read more" button */}
+- {index && page.excerpt ? <a class="article-more button is-small is-size-7" href={`${url_for(page.link || page.path)}#more`}>{__('article.more')}</a> : null}
++ {index && page.excerpt ? <a class="article-more button is-small is-size-7 is-uppercase" style="font-weight:bold;" href={`${url_for(page.link || page.path)}`}>{__('article.more')}</a> : null}
 ```
 
 ```diff ./themes/icarus/include/style/article.styl
@@ -196,7 +196,7 @@ deploy:
 ```
 
 Push to the `hexo` branch.
-```
+```bash
 git init
 git add -A
 git commit -m "first commit for the blog"
@@ -207,7 +207,7 @@ git push origin hexo
 ```
 
 Deploy.
-```
+```bash
 cnpm install hexo-deployer-git --save
 hexo clean && hexo deploy
 ```
