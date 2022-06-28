@@ -31,8 +31,8 @@ class Footer extends Component {
                 <div class="level">
                     <div class="level-start">
                         <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">
-                            <img src="https://licensebuttons.net/p/zero/1.0/88x31.png" alt="CC0" title="CC0 1.0" />
-                        </a>
+                            <img src="https://licensebuttons.net/p/zero/1.0/88x31.png" alt="CC0 1.0" title="CC0 1.0" />
+                        </a><b style="margin-left:0.5em; font-size:20px; font-family:Nimbus Roman, FreeSerif, Times New Roman, Noto Serif, Serif;">DQWYY BLOG</b>
                         <p class="is-size-7">
                             Blog posts are licensed under <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">CC0 1.0</a> by <a href="https://dqwyy.moe" target="_blank">dqwyy</a> unless fair use or otherwise noted.
                         </p>

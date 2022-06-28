@@ -1,10 +1,12 @@
 ---
 title: A New Start For My Blog
-date: 2022-06-25 20:43:15
 categories: en
 tags: technology
 id: '0001'
+toc: true
+date: 2022-06-25 20:43:15
 ---
+
 I built my blog on July 27, 2017 by using [GitHub Pages](https://pages.github.com/) and [Hexo](https://hexo.io/). After that I post some articles on it, not too many, just 4 posts, then I dropped it. The latest post was post on July 27, 2018. This means that the blog was only active for one year, then it became inactive although it was still online. There are two reasons for this result. One is that I was too lazy to update it, the other is that I tried to write posts in English so that more people can understand, however I am not a native English speaker, my English skill is not good enough for me to write posts. Sometimes I have something to be written down, I can express it well in Chinese easily but when I try using English, I can't even express what I want to say well.
 <!-- MORE -->
 And today, June 25, 2022, after 4 years since the last post, I decide to update my blog. I would call it a *new start*. I am not going to add new posts for it, instead, I am going to delete all the old contents and then rebuild it. One of the reasons is I got bored about [the previous theme](https://github.com/klugjo/hexo-theme-anodyne). I chose a simple theme when I built it, but now I think it is too simple although I like simple stuff, I prefer a more beautiful one. Another reason is that I am not satisfied with some of my post, not all, just some, but I still want to make a new start. I may be regretted if I just delete them so I [archived](https://web.archive.org/web/20211223093307/http://dqwyy.moe/) them at Internet Archive's Wayback Machine, which is a really useful website for archiving. I keep the GitHub repository too. Maybe I will move one of two posts to this new blog someday after doing some editing but not now. For the new theme, I considered using [Minos](https://github.com/ppoffice/hexo-theme-minos) by ppoffice initially but its layout didn't render correctly, some CSS files didn't seem to load successfully. I gave up after several failed attempts to fix it. Finally I decided to use [Icarus](https://github.com/ppoffice/hexo-theme-icarus), another work by the same author. Besides, I will also change the domain of my blog to a subdomain. I used second-level domain directly for the blog before but now I think it should be used for a home about me page instead, so a `blog.` subdomain is adopted.
@@ -38,7 +40,8 @@ At the default layout, the profile card widget is too wide and the main area is 
 -            return 'is-4-tablet is-4-desktop is-4-widescreen';
 +            return 'is-4-tablet is-4-desktop is-3-widescreen';
          case 3:
-             return 'is-4-tablet is-4-desktop is-3-widescreen';
+-            return 'is-4-tablet is-4-desktop is-3-widescreen';
++            return 'is-4-tablet is-4-desktop is-one-fifth-widescreen';
      }
      return '';
  }
@@ -52,7 +55,8 @@ At the default layout, the profile card widget is too wide and the main area is 
      'is-12': columnCount === 1,
 -    'is-8-tablet is-8-desktop is-8-widescreen': columnCount === 2,
 +    'is-8-tablet is-8-desktop is-9-widescreen': columnCount === 2,
-     'is-8-tablet is-8-desktop is-6-widescreen': columnCount === 3
+-    'is-8-tablet is-8-desktop is-6-widescreen': columnCount === 3
++    'is-8-tablet is-8-desktop is-three-fifths-widescreen': columnCount === 3
  })} dangerouslySetInnerHTML={{ __html: body }}></div>
 ```
 
@@ -138,7 +142,7 @@ The default date format is in a relative style, like *x* days ago. This is not m
 ```
 
 ### Change copyright footer
-The default copyright footer is "© 2022 dqwyy  Powered by Hexo & Icarus". I don't want to use the copyright symbol here because I would like to release my posts to the Public Domain by using the [Creative Commons Zero](https://creativecommons.org/publicdomain/zero/1.0/) (CC0) license.
+The default copyright footer is "© 2022 dqwyy  Powered by Hexo & Icarus". I don't want to use the copyright symbol here because I would like to release my posts to the Public Domain by using the [CC0](https://creativecommons.org/publicdomain/zero/1.0/) license.
 
 ```diff ./themes/icarus/layout/common/footer.jsx
 - <a class="footer-logo is-block mb-2" href={siteUrl}>
@@ -150,7 +154,7 @@ The default copyright footer is "© 2022 dqwyy  Powered by Hexo & Icarus". I don
 
 + <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">
 +     <img src="https://licensebuttons.net/p/zero/1.0/88x31.png" alt="CC0" title="CC0 1.0" />
-+ </a>
++ </a><b style="margin-left:0.5em; font-size:20px; font-family:Nimbus Roman, FreeSerif, Times New Roman, Noto Serif, Serif;">DQWYY BLOG</b>
 + <p class="is-size-7">
 +     Blog posts are licensed under <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">CC0 1.0</a> by <a href="https://dqwyy.moe" target="_blank">dqwyy</a> unless fair use or otherwise noted.
 + </p>

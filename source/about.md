@@ -1,5 +1,5 @@
 ---
-title: About dqwyy blog
+title: About
 ---
 *This page is about this blog itself. For informations about the author, please check https://dqwyy.moe instead.*
 
@@ -10,4 +10,4 @@ title: About dqwyy blog
 - 🎨 **Theme:** [Icarus](https://github.com/ppoffice/hexo-theme-icarus) by ppoffice
 - 🖼️ **Image host:** [SM.MS](https://sm.ms)
 - ✨ **Icons**: [Font Awesome](https://fontawesome.com/)
-- ⚖️ **License:** [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/), unless fair use or otherwise noted
+- ⚖️ **License:** [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/), unless fair use or otherwise noted

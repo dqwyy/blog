@@ -1,7 +1,8 @@
 ---
 title: {{ title }}
 date: {{ date }}
-categories: 
-tags: 
-id: 
+categories: en
+tags: untagged
+id: '0000'
+toc: true
 ---

@@ -41,7 +41,7 @@ function getColumnSizeClass(columnCount) {
         case 2:
             return 'is-4-tablet is-4-desktop is-3-widescreen';
         case 3:
-            return 'is-4-tablet is-4-desktop is-3-widescreen';
+            return 'is-4-tablet is-4-desktop is-one-fifth-widescreen';
     }
     return '';
 }

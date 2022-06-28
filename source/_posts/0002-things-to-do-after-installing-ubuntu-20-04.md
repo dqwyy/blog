@@ -1,10 +1,12 @@
 ---
 title: Things To Do After Installing Ubuntu 20.04
-date: 2022-06-26 20:55:57
 categories: en
 tags: technology
 id: '0002'
+toc: true
+date: 2022-06-26 20:55:57
 ---
+
 Every time I install a new software, the first thing to do is to configure it. Doing the configuration could be very annoying, especially when you are doing a re-installation, you have to do something you did before but you couldn't remember well. Some software has a good default setting, I mean the setting suits me, I don't need to do any extra setting, but for some software, the default setting doesn't fit my habits, I have to do a lot of settings, I even have to export and backup the config file (if possible) in case of re-installation. Ubuntu is the latter, the annoying one.
 <!-- MORE -->
 In fact, the main factor that prompted me to [rebuild my blog](/0001) was that I was going to reinstall my operating system for my computer to give it a refresh. I am not going to install Ubuntu again, because Gnome isn't my type at all. I would say it disobeys *rule of the infinite edges* of [Fitts's law](https://en.wikipedia.org/wiki/Fitts%27s_law) at user interface. The top bar should be to blame. Due to the existence of the top bar, the close button isn't at the right-top corner of the screen, and the browser tabs aren't at the top edge, these are very inconvenient for my operation, I could have closed the windows without focusing on the position of the mouse cursor, even with my eyes closed, but the top bar ruined everything, [*it's so painful*](https://askubuntu.com/questions/1320323/closing-application-from-corner-of-the-screen-is-pain). And this post is only for record, I will try using Kubuntu instead of Ubuntu later, *maybe* I will not use Ubuntu anymore. Another reason for me to drop Ubuntu is that the desktop environment is not responding from time to time since being installed, especially the Firefox browser.

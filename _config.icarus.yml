@@ -3,7 +3,8 @@ version: 4.0.0
 # Icarus theme variant, can be "default" or "cyberpunk"
 variant: default
 # Path or URL to the website's logo
-logo: https://i.loli.net/2017/07/28/597b38a758396.jpg
+logo: #https://i.loli.net/2017/07/28/597b38a758396.jpg
+    text: '《 DQWYY BLOG 》'
 # Page metadata configurations
 head:
     # URL or path to the website's icon
@@ -105,11 +106,11 @@ head:
 navbar:
     # Navigation menu items
     menu:
-        Home: /
-        Archives: /archives
-#        Categories: /categories
-#        Tags: /tags
-        About: /about
+        🏠 Home: /
+        🗃️ Archives: /archives
+        🌐 Categories: /categories
+        🏷️ Tags: /tags
+        ℹ️ About: /about
 
 
 #    # Links to be shown on the right of the navigation bar
@@ -173,7 +174,7 @@ sidebar:
     # Right sidebar configurations
     right:
         # Whether the sidebar sticks to the top when page scrolls
-        sticky: false
+        sticky: true
 # Sidebar widget configurations
 # http://ppoffice.github.io/hexo-theme-icarus/categories/Widgets/
 widgets:
@@ -197,27 +198,27 @@ widgets:
         # Links to be shown on the bottom of the profile widget
         social_links:
             Twitter:
-                icon: fab fa-twitter  #-square
+                icon: fab fa-twitter
                 url: 'https://twitter.com/dqwyy1997'
             Steam:
-                icon: fab fa-steam  #-square
+                icon: fab fa-steam
                 url: https://steamcommunity.com/id/dqwyy/
             GitHub:
                 icon: fab fa-github
                 url: https://github.com/dqwyy
 
 
-#    # Table of contents widget configurations
-#    -
-#        # Where should the widget be placed, left sidebar or right sidebar
-#        position: left
-#        type: toc
-#        # Whether to show the index of each heading
-#        index: true
-#        # Whether to collapse sub-headings when they are out-of-view
-#        collapsed: true
-#        # Maximum level of headings to show (1-6)
-#        depth: 3
+    # Table of contents widget configurations
+    -
+        # Where should the widget be placed, left sidebar or right sidebar
+        position: right
+        type: toc
+        # Whether to show the index of each heading
+        index: true
+        # Whether to collapse sub-headings when they are out-of-view
+        collapsed: false
+        # Maximum level of headings to show (1-6)
+        depth: 2
 
 
     # Categories widget configurations
