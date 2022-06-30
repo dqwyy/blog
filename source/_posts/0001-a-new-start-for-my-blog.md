@@ -1,7 +1,7 @@
 ---
 title: A New Start For My Blog
-categories: en
-tags: technology
+categories: English
+tags: Technology
 id: '0001'
 toc: true
 date: 2022-06-25 20:43:15

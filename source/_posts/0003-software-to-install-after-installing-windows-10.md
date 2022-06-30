@@ -1,7 +1,7 @@
 ---
 title: Software To Install After Installing Windows 10
-categories: en
-tags: technology
+categories: English
+tags: Technology
 id: '0003'
 toc: true
 date: 2022-06-27 19:25:47
@@ -358,7 +358,7 @@ SHA256: 37d68f273d0479adec08db3a75bd229c6fad121894ae9bd456fedd8b5f2d2ede
 - [GIMP](https://www.gimp.org/downloads/), for Chinese residents, download it from [USTC Mirror](https://mirrors.ustc.edu.cn/gimp/) or [NJU Mirror](https://mirrors.nju.edu.cn/gimp/).
 
 ### Markdown renderer
-- [Typora 0.11.18 beta](https://typora.io/windows/dev_release.html), the stable version is not freeware.
+- [Typora 0.11.18 beta](https://typora.io/windows/dev_release.html), the stable version is not a freeware.
 
 ### upnp video server
 - [Kodi](https://kodi.tv/download), for Chinese residents, download it from [TUNA Mirror](https://mirrors.tuna.tsinghua.edu.cn/kodi/).
@@ -368,3 +368,6 @@ SHA256: 37d68f273d0479adec08db3a75bd229c6fad121894ae9bd456fedd8b5f2d2ede
 
 ### Free Download Manager
 - [Free Download Manager](https://www.freedownloadmanager.org/), in fact I hardly use it.
+
+### Network speed monitor
+- [Traffic Monitor](https://github.com/zhongyang219/TrafficMonitor), show download speed and upload speed at the system tray, additional information such as CPU usage, RAM usage and so on are also available.

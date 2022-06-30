@@ -1,7 +1,7 @@
 ---
 title: Things To Do After Installing Ubuntu 20.04
-categories: en
-tags: technology
+categories: English
+tags: Technology
 id: '0002'
 toc: true
 date: 2022-06-26 20:55:57

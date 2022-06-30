@@ -1,8 +1,8 @@
 ---
 title: {{ title }}
 date: {{ date }}
-categories: en
-tags: untagged
+categories: English
+tags: Untagged
 id: '0000'
 toc: true
 ---
