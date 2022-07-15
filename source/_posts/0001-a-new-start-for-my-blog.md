@@ -205,7 +205,7 @@ Push to the `hexo` branch.
 git init
 git add -A
 git commit -m "first commit for the blog"
-git remote add origin https://github.com/dqwyy/blog.git
+git remote add origin git@github.com:dqwyy/blog.git
 git branch hexo
 git checkout hexo
 git push origin hexo
