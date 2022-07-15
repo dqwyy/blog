@@ -5,6 +5,7 @@ tags: Technology
 id: '0002'
 toc: true
 date: 2022-06-26 20:55:57
+cover: https://ubuntucommunity.s3.dualstack.us-east-2.amazonaws.com/original/2X/0/0921cb27d5604b464218a64ae88a3f43c7b7371a.png
 ---
 
 Every time I install a new software, the first thing to do is to configure it. Doing the configuration could be very annoying, especially when you are doing a re-installation, you have to do something you did before but you couldn't remember well. Some software has a good default setting, I mean the setting suits me, I don't need to do any extra setting, but for some software, the default setting doesn't fit my habits, I have to do a lot of settings, I even have to export and backup the config file (if possible) in case of re-installation. Ubuntu is the latter, the annoying one.

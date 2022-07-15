@@ -5,6 +5,7 @@ tags: Technology
 id: '0003'
 toc: true
 date: 2022-06-27 19:25:47
+cover: https://wallpapercave.com/wp/wp9204226.jpg
 ---
 
 After installing Windows 10, some neccessary software should be installed. Luckily, there aren't [as many settings to do as Ubuntu](/0002).

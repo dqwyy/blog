@@ -5,6 +5,7 @@ tags: Technology
 id: '0001'
 toc: true
 date: 2022-06-25 20:43:15
+cover: https://uynguyen.github.io/Post-Resources/Hexo/Cover.png
 ---
 
 I built my blog on July 27, 2017 by using [GitHub Pages](https://pages.github.com/) and [Hexo](https://hexo.io/). After that I post some articles on it, not too many, just 4 posts, then I dropped it. The latest post was post on July 27, 2018. This means that the blog was only active for one year, then it became inactive although it was still online. There are two reasons for this result. One is that I was too lazy to update it, the other is that I tried to write posts in English so that more people can understand, however I am not a native English speaker, my English skill is not good enough for me to write posts. Sometimes I have something to be written down, I can express it well in Chinese easily but when I try using English, I can't even express what I want to say well.
@@ -153,7 +154,7 @@ The default copyright footer is "© 2022 dqwyy  Powered by Hexo & Icarus". I don
 -     &nbsp;&nbsp;Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>&nbsp;&&nbsp;
 
 + <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">
-+     <img src="https://licensebuttons.net/p/zero/1.0/88x31.png" alt="CC0" title="CC0 1.0" />
++     <img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg" alt="CC0" title="CC0 1.0" />
 + </a><b style="margin-left:0.5em; font-size:20px; font-family:Nimbus Roman, FreeSerif, Times New Roman, Noto Serif, Serif;">DQWYY BLOG</b>
 + <p class="is-size-7">
 +     Blog posts are licensed under <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">CC0 1.0</a> by <a href="https://dqwyy.moe" target="_blank">dqwyy</a> unless fair use or otherwise noted.
