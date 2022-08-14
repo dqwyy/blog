@@ -12,7 +12,7 @@ I built my blog on July 27, 2017 by using [GitHub Pages](https://pages.github.co
 <!-- MORE -->
 And today, June 25, 2022, after 4 years since the last post, I decide to update my blog. I would call it a *new start*. I am not going to add new posts for it, instead, I am going to delete all the old contents and then rebuild it. One of the reasons is I got bored about [the previous theme](https://github.com/klugjo/hexo-theme-anodyne). I chose a simple theme when I built it, but now I think it is too simple although I like simple stuff, I prefer a more beautiful one. Another reason is that I am not satisfied with some of my post, not all, just some, but I still want to make a new start. Maybe I will move one of two posts to this new blog someday after doing some editing but not now. For the new theme, I considered using [Minos](https://github.com/ppoffice/hexo-theme-minos) by ppoffice initially but its layout didn't render correctly, some CSS files didn't seem to load successfully. I gave up after several failed attempts to fix it. Finally I decided to use [Icarus](https://github.com/ppoffice/hexo-theme-icarus), another work by the same author. Besides, I will use a `blog.dqwyy.moe` subdomain as the domain of the blog because I think the `dqwyy.moe` domain should be used for a home about me page instead.
 
-# Install and configuration
+## Install and configuration
 Firstly, I created a empty folder for the blog, later actions will be taken in that folder. Locate into the folder, then install Hexo with the following command. I will use [cnpm](http://www.npmmirror.com/) here, which is a mirror site in China for npm, in order to get better Internet connection experience.
 
 ```bash
