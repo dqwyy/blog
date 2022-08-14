@@ -33,10 +33,7 @@ class Footer extends Component {
                         <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">
                             <img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg" alt="CC0 1.0" title="CC0 1.0" />
                         </a><b style="margin-left:0.5em; font-size:20px; font-family:Nimbus Roman, FreeSerif, Times New Roman, Noto Serif, Serif;">DQWYY BLOG</b>
-                        <p class="is-size-7">
-                            Blog posts are licensed under <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">CC0 1.0</a> by <a href="https://dqwyy.moe" target="_blank">dqwyy</a> unless fair use or otherwise noted.
-                        </p>
-                        <p class="is-size-7">
+                        <p class="is-size-7" style="margin-top:1ex;">
                             Powered by&nbsp;
                             <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>,&nbsp;
                             <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>,&nbsp;
@@ -45,6 +42,9 @@ class Footer extends Component {
                             {showVisitorCounter ? <br /> : null}
                             {showVisitorCounter ? <span id="busuanzi_container_site_uv"
                                 dangerouslySetInnerHTML={{ __html: visitorCounterTitle }}></span> : null}
+                        </p>
+                        <p class="is-size-7" style="text-transform:uppercase;">
+                            <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" style="color:#4a4a4a;">CC0 1.0</a> ⓪ 2017-<script>document.write( new Date().getFullYear() );</script> <a href="https://dqwyy.moe" target="_blank" style="color:#4a4a4a;">dqwyy</a>. No right reserved unless otherwise noted.
                         </p>
                     </div>
                     <div class="level-end">
