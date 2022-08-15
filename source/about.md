@@ -1,6 +1,8 @@
 ---
 title: About
 ---
+![Me at VRChat (© Photoed by Natsume)](https://s2.loli.net/2022/08/15/59XUpneHPrjTuF1.png)
+
 *This page is about this blog itself. For informations about the author, please check https://dqwyy.moe instead.*
 
 - 👤 **Author:** dqwyy
