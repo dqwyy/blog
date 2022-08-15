@@ -11,5 +11,5 @@ title: About
 - 🔌 **Powered by:** [GitHub Pages](https://pages.github.com/) and [Hexo](https://hexo.io/)
 - 🎨 **Theme:** [Icarus](https://github.com/ppoffice/hexo-theme-icarus) by ppoffice
 - 🖼️ **Image host:** [SM.MS](https://sm.ms)
-- ✨ **Icons**: [Font Awesome v5](https://fontawesome.com/), [Twemoji](https://twitter.github.io/twemoji/)
+- ✨ **Icons**: [Font Awesome v5](https://fontawesome.com/), [Twemoji](https://twemoji.maxcdn.com/)
 - ⚖️ **License:** [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/), unless fair use or otherwise noted
