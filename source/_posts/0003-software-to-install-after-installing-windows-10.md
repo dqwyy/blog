@@ -343,7 +343,7 @@ SHA256: 37d68f273d0479adec08db3a75bd229c6fad121894ae9bd456fedd8b5f2d2ede
 
 ## Video player
 - [MPC-HC](https://github.com/mpc-hc/mpc-hc/releases/tag/1.7.13), although it has been discontinued since July 2017.
-- [QQ Player](https://player.qq.com/), the user interface is in Chinese but unfortunately the download link is taken down currently, you can download it from [Internet Archive Wayback Machine](https://web.archive.org/web/20220504121850/https://player.qq.com/).
+- [QQ Player](https://player.qq.com/), the user interface is in Chinese but unfortunately the download link is taken down currently, you can download it from [Tencent Software Center](https://pc.qq.com/detail/8/detail_8.html) or [Internet Archive Wayback Machine](https://web.archive.org/web/20220504121850/https://player.qq.com/).
 
 ## Proxy
 - [ShadowsocksR](https://github.com/shadowsocksrr/shadowsocksr-csharp/releases)
