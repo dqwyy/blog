@@ -199,6 +199,7 @@ sudo apt install gnome-tweaks chrome-gnome-shell
 - [ibus font setting](https://extensions.gnome.org/extension/1121/ibus-font-setting/)
 - [Dynamic Panel Transparency](https://extensions.gnome.org/extension/1011/dynamic-panel-transparency/)
 - [Unite](https://extensions.gnome.org/extension/1287/unite/), move the close button to top-lest corner, not a best solution for me but so far the best solution, *alternatively [Dash to Panel](https://extensions.gnome.org/extension/1160/dash-to-panel/), or just switch to [KDE](https://kde.org/) from Gnome.*
+- [Internet Speed Monitor](https://extensions.gnome.org/extension/4585/internet-speed-monitor/), not the one with the most config options but the default style is enough for me.
 
 ## Manage applications view
 Not sure about the exact name, I mean the view when you click the *Show Applications* button at the left-bottom corner, just like a *Start menu* at Windows 8.1. I am not allow to delete the applications icons directly from the view, the way to do that is to go to `/usr/share/applications/`.
