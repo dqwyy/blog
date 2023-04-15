@@ -3,7 +3,7 @@ title: {{ title }}
 date: {{ date }}
 categories: English
 tags: Untagged
-id: '0000'
+id: '000'
 toc: true
 cover:
 ---

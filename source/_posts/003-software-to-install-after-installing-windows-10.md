@@ -2,7 +2,7 @@
 title: Software To Install After Installing Windows 10
 categories: English
 tags: Technology
-id: '0003'
+id: '003'
 toc: true
 date: 2022-06-27 19:25:47
 cover: https://wallpapercave.com/wp/wp9204226.jpg
