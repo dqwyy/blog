@@ -2,7 +2,7 @@
 title: Things To Do After Installing Kubuntu 22.04
 categories: English
 tags: Technology
-id: '004'
+id: '0004'
 toc: true
 date: 2022-07-13 13:36:15
 cover: https://kubuntu.org/wp-content/uploads/2022/04/ba56/jellyfishbanner.png

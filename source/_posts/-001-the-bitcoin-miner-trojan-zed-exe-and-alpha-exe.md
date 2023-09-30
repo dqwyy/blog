@@ -2,7 +2,7 @@
 title: The Bitcoin Miner Trojan zed.exe and alpha.exe
 categories: English
 tags: Technology
-id: '-01'
+id: '-001'
 toc: true
 date: 2018-07-27 21:10:10
 cover: https://blog.strands.com/hubfs/bitcoin.jpg

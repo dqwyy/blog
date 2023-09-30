@@ -4,7 +4,7 @@ version: 4.0.0
 variant: default
 # Path or URL to the website's logo
 logo: #https://i.loli.net/2017/07/28/597b38a758396.jpg
-    text: '《 DQWYY★BLOG 》'
+    text: '《 DQWYY ★ BLOG 》'
 # Page metadata configurations
 head:
     # URL or path to the website's icon

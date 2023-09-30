@@ -2,7 +2,7 @@
 title: Sharing Files Via Nginx on Linux
 categories: English
 tags: Technology
-id: '006'
+id: '0006'
 toc: true
 date: 2023-03-28 13:19:44
 cover: https://japan.zdnet.com/storage/2019/12/16/90ea835f97305edaa324d8c8a9226cf8/nginx.png

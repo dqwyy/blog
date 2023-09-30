@@ -2,7 +2,7 @@
 title: A New Start For My Blog
 categories: English
 tags: Technology
-id: '001'
+id: '0001'
 toc: true
 date: 2022-06-25 20:43:15
 cover: https://uynguyen.github.io/Post-Resources/Hexo/Cover.png
