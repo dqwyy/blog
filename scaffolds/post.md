@@ -15,6 +15,6 @@ cover:
 ----
 <span class="is-size-7">
 
-※ *Cover image: *
+※ Cover image: []()
 
 </span>

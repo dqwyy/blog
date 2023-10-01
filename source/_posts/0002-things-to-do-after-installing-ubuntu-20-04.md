@@ -224,3 +224,10 @@ alias dtrx='dtrx -v'
 - [GIMP](https://flathub.org/apps/details/org.gimp.GIMP), image editor
 - [HexChat](https://hexchat.github.io/), IRC client
 - [Aegisub](https://www.aegisub.org), subtitle editor
+
+----
+<span class="is-size-7">
+
+※ Cover image: [Ubuntu](https://discourse.ubuntu.com/t/focal-fossa-mascot-wallpapers/14621)
+
+</span>

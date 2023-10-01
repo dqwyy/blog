@@ -221,3 +221,10 @@ Then enable the GitHub Pages at the setting panel of the repository, and configu
 
 ## Epilogue
 I won't guarantee to update the blog frequently, but maybe I will try my best to share something here. The language of the post will be in either English or Chinese. I will not use English all the time because my skill doesn't allow me to do that although I hope so. The topics of the posts may be various, like technology, entertainment, science, language and life. [Tags](/tags/) will tell you.
+
+----
+<span class="is-size-7">
+
+※ Cover image: [Uy Nguyen](https://uynguyen.github.io/2020/04/27/Building-your-personal-page-with-Hexo/)
+
+</span>

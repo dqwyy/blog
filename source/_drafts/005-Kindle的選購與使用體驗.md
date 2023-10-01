@@ -40,3 +40,10 @@ cover: https://m.media-amazon.com/images/I/61Mz+F+tzYL._AC_SL1000_.jpg
 Kindle的包裝上有一次性封條，拆封之後會影響二次銷售，設備開機之後亦無法復原到開機狀態，因此淘寶店均不支持拆封試用後的七天無理由退貨。而我在購買前，主要擔心的問題就是分辨率和電池續航能否滿足我的要求。對於分辨率，有人的評價就是，看文字可以夠用，但是看漫畫就不太清晰。而我看文字的時候喜歡對文字進行端詳，端詳漢字的一筆一劃，一橫一豎，以及明體的襯線。
 
 </div>
+
+----
+<span class="is-size-7">
+
+※ Cover image: [Amazon](https://www.amazon.com/dp/B07DPMXZZ7?th=1)
+
+</span>

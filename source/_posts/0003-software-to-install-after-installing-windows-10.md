@@ -5,7 +5,7 @@ tags: Technology
 id: '0003'
 toc: true
 date: 2022-06-27 19:25:47
-cover: https://wallpapercave.com/wp/wp9204226.jpg
+cover: https://wipwebprodcdnv2.blob.core.windows.net/wipmedia/sites/8/2020/06/Wallpaper-hero-vp5.png
 ---
 
 After installing Windows 10, some neccessary software should be installed. Luckily, there aren't [as many settings to do as Ubuntu](/0002).
@@ -372,3 +372,10 @@ SHA256: 37d68f273d0479adec08db3a75bd229c6fad121894ae9bd456fedd8b5f2d2ede
 
 ## Network speed monitor
 - [Traffic Monitor](https://github.com/zhongyang219/TrafficMonitor), show download speed and upload speed at the system tray, additional information such as CPU usage, RAM usage and so on are also available.
+
+----
+<span class="is-size-7">
+
+※ Cover image: [Microsoft](https://www.microsoft.com/en-us/windowsinsider/articles/happy-five-year-anniversary)
+
+</span>
