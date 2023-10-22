@@ -5,7 +5,7 @@ tags: Technology
 id: '-001'
 toc: true
 date: 2018-07-27 21:10:10
-cover: https://c4.wallpaperflare.com/wallpaper/815/38/452/computers-others-wallpaper-preview.jpg
+cover: https://live.staticflickr.com/8109/8632995866_33f925551b_c.jpg
 ---
 ## Prologue
 I'm using Microsoft Windows 8.1 as my operating system. Several days ago, I was told by Windows Defender that a malware was detected and removed. I thought it was KMSpico, which can activate my OS and Microsoft Office illegally, that is removed. This kind of things happened a lot before but I didn't think it would happen again this time because I had add KMSpico to the exception list of Window Defender so that it would be trusted. Then I checked the detected and quarantined item named **Trojan:Win32/CoinMner** with details that:
