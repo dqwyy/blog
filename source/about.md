@@ -10,6 +10,11 @@ title: About
 - 🌐 **Languages:** English and Chinese
 - 🔌 **Powered by:** [GitHub Pages](https://pages.github.com/) and [Hexo](https://hexo.io/)
 - 🎨 **Theme:** [Icarus](https://github.com/ppoffice/hexo-theme-icarus) by ppoffice
-- 🖼️ **Image host:** [SM.MS](https://sm.ms)
+- 🖼️ **Image host:** [SM.MS](https://smms.app)
 - ✨ **Icons**: [Font Awesome v5](https://fontawesome.com/), [Twemoji](https://twemoji.maxcdn.com/)
 - ⚖️ **License:** [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/), unless fair use or otherwise noted
+
+## Friend Links
+- [地球不适外星包](https://huajia.163.com/profile/PBZQWbD8)
+- [啊夸](https://www.cnblogs.com/Aquakinn/)
+- [gq's blog](https://zgq.ink/)
