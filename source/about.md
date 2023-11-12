@@ -17,5 +17,5 @@ title: About
 ## Friend Links
 - [地球不适外星包](https://huajia.163.com/profile/PBZQWbD8)
 - [啊夸](https://www.cnblogs.com/Aquakinn/)
-- [然哥的精神故乡](https://dennjang.github.io/)
+- [Denn Jang](https://dennjang.github.io/)
 - [gq's blog](https://zgq.ink/)
