@@ -37,7 +37,8 @@ class Footer extends Component {
                             Powered by&nbsp;
                             <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>,&nbsp;
                             <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>,&nbsp;
-                            <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener">Icarus</a> and&nbsp;
+                            <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener">Icarus</a>,&nbsp;
+							<a href="https://bulma.io/" target="_blank" rel="noopener">Bulma</a> and&nbsp;
                             <a href="https://sm.ms/" target="_blank">SM.MS</a>.
                             {showVisitorCounter ? <br /> : null}
                             {showVisitorCounter ? <span id="busuanzi_container_site_uv"
