@@ -9,14 +9,14 @@ cover: https://live.staticflickr.com/8109/8632995866_33f925551b_c.jpg
 ---
 ## Prologue
 I'm using Microsoft Windows 8.1 as my operating system. Several days ago, I was told by Windows Defender that a malware was detected and removed. I thought it was KMSpico, which can activate my OS and Microsoft Office illegally, that is removed. This kind of things happened a lot before but I didn't think it would happen again this time because I had add KMSpico to the exception list of Window Defender so that it would be trusted. Then I checked the detected and quarantined item named **Trojan:Win32/CoinMner** with details that:
-
+<!-- MORE -->
 > **Category:** Trojan
 > **Description:** This program is dangerous and executes commands from an attacker.
 > **Recommended action:** Remove this software immediately.
 > **Items:**
 > file:C:\Users\dqwyy\AppData\Local\Temp\nvd\zed.exe
 > [Get more information about this item online.](https://www.microsoft.com/en-us/wdsi/threats/malware-encyclopedia-description?name=Trojan%3aWin32%2fCoinMiner&threatid=2147672528&enterprise=0)
-<!-- MORE -->
+
 ![Detected by Windows Defender](https://i.loli.net/2018/07/27/5b5b210b0a11e.png)
 
 ## Symptom

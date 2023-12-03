@@ -10,7 +10,6 @@ title: About
 - 🌐 **Languages:** English and Chinese
 - 🔌 **Powered by:** [GitHub Pages](https://pages.github.com/), [Hexo](https://hexo.io/) and [Bulma](https://bulma.io/)
 - 🎨 **Theme:** [Icarus](https://github.com/ppoffice/hexo-theme-icarus) by ppoffice
-- 🖼️ **Image host:** [SM.MS](https://smms.app)
 - ✨ **Icons**: [Font Awesome v5](https://fontawesome.com/), [Twemoji](https://twemoji.maxcdn.com/)
 - ⚖️ **License:** [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/), unless fair use or otherwise noted
 
