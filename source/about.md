@@ -1,7 +1,7 @@
 ---
 title: About
 ---
-![Me at VRChat (Photoed by my friend Natsume)](https://s2.loli.net/2022/08/15/59XUpneHPrjTuF1.png)
+![Me at VRChat (Photoed by my friend Natsume)](https://cdn.jsdelivr.net/gh/dqwyy/blog-img/0000/about.png)
 
 *This page is about this blog itself. For informations about the author, please check https://dqwyy.moe instead.*
 

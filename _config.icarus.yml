@@ -8,7 +8,7 @@ logo: #https://i.loli.net/2017/07/28/597b38a758396.jpg
 # Page metadata configurations
 head:
     # URL or path to the website's icon
-    favicon: https://i.loli.net/2017/07/28/597b38a758396.jpg
+    favicon: https://cdn.jsdelivr.net/gh/dqwyy/blog-img/0000/avatar.jpg
     # Web application manifests configuration
     # https://developer.mozilla.org/en-US/docs/Web/Manifest
     manifest:
@@ -190,7 +190,7 @@ widgets:
         # Author's current location
         location: Teochew, China
         # URL or path to the avatar image
-        avatar: https://i.loli.net/2017/07/28/597b38a758396.jpg
+        avatar: https://cdn.jsdelivr.net/gh/dqwyy/blog-img/0000/avatar.jpg
         # Whether show the rounded avatar image
         avatar_rounded: true
         # URL or path for the follow button
