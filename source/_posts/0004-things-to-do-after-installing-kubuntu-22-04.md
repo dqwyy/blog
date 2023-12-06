@@ -66,7 +66,7 @@ Install the apt package `python-is-python3` and edit `~/.config/electron-ssr/sha
 ## Problems left
 - Some applications ask me for password for root privilege access, but when I enter the correct password, it says "Permission denied. Possibly incorrect password, please try again. On some systems, you need to be in a special group (often: wheel) to use this program."
 
-![](https://s2.loli.net/2022/07/15/IKUf53g8uRHXMnF.png)
+![](https://cdn.jsdelivr.net/gh/dqwyy/blog-img/0004/01.png)
 
 - The close button is not at the corner when Firefox's title bar is hidden.
 - Double click the icon at the window title bar doesn't close the window.

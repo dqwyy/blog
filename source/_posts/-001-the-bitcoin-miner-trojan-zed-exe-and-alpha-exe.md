@@ -17,7 +17,7 @@ I'm using Microsoft Windows 8.1 as my operating system. Several days ago, I was 
 > file:C:\Users\dqwyy\AppData\Local\Temp\nvd\zed.exe
 > [Get more information about this item online.](https://www.microsoft.com/en-us/wdsi/threats/malware-encyclopedia-description?name=Trojan%3aWin32%2fCoinMiner&threatid=2147672528&enterprise=0)
 
-![Detected by Windows Defender](https://i.loli.net/2018/07/27/5b5b210b0a11e.png)
+![Detected by Windows Defender](https://cdn.jsdelivr.net/gh/dqwyy/blog-img/-001/01.png)
 
 ## Symptom
 This trojan/malware/virus surprises and annoys me a lot and reminds me of the symptom of my computer. Everytime I am away form my laptop and leave it on, the CPU fan will spin very fast and be noisy as if it's running many programs. I would never realize that my CUP even GPU were used for Bitcoin mining (or other blockchain digital currency) by trojan if it didn't detected by Windows Defender. And everytime I move my mouse or press any key on keyboard, the CPU fan turns to silent. Here is a thread written in Traditional Chinese about this symptom: *[zed.exe是什麼東西？](https://www.mobile01.com/topicdetail.php?f=508&t=5266362)* (*What is zed.exe?*)
@@ -202,9 +202,9 @@ I use no antivirus software but Windows Defender. In fact, Windows Defender does
 
 Later I had an idea after reading some related posts. I created blank text files and replaced the files in `%TEMP%\ati` and `%TEMP%\nvd` by renaming.
 
-![Before](https://i.loli.net/2018/07/27/5b5b3aabb9027.png)
+![Before](https://cdn.jsdelivr.net/gh/dqwyy/blog-img/-001/02.png)
 
-![After](https://i.loli.net/2018/07/27/5b5b3aabb564e.png)
+![After](https://cdn.jsdelivr.net/gh/dqwyy/blog-img/-001/03.png)
 
 Then I ran the bat file to monitor the processes again and left my laptop alone. One hour later I checked [the log](https://paste.ubuntu.com/p/RP4zww6F2c/) and it showed that the zed.exe didn't come back. I also hope that it will never come back.
 
