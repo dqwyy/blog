@@ -226,8 +226,8 @@ alias dtrx='dtrx -v'
 - [Aegisub](https://www.aegisub.org), subtitle editor
 
 ----
-<span class="is-size-7">
+<div class="is-size-7">
 
 ※ Cover image: [Ubuntu](https://discourse.ubuntu.com/t/focal-fossa-mascot-wallpapers/14621)
 
-</span>
+</div>

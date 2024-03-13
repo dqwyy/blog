@@ -374,8 +374,8 @@ SHA256: 37d68f273d0479adec08db3a75bd229c6fad121894ae9bd456fedd8b5f2d2ede
 - [Traffic Monitor](https://github.com/zhongyang219/TrafficMonitor), show download speed and upload speed at the system tray, additional information such as CPU usage, RAM usage and so on are also available.
 
 ----
-<span class="is-size-7">
+<div class="is-size-7">
 
 ※ Cover image: [Microsoft](https://www.microsoft.com/en-us/windowsinsider/articles/happy-five-year-anniversary)
 
-</span>
+</div>

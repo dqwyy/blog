@@ -5,7 +5,7 @@ categories: English
 tags: Untagged
 id: '0000'
 toc: true
-cover:
+cover: https://cdn.jsdelivr.net/gh/dqwyy/blog-img/0000/00.png
 ---
 
 
@@ -13,8 +13,8 @@ cover:
 
 
 ----
-<span class="is-size-7">
+<div class="is-size-7">
 
 ※ Cover image: []()
 
-</span>
+</div>

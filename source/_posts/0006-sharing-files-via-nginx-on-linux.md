@@ -45,8 +45,8 @@ sudo nginx -s reload
 Then config the port forwarding on your router and now the files under `/home/dqwyy/www/` will be accessible on <http://yourdomain.com:8000>.
 
 ----
-<span class="is-size-7">
+<div class="is-size-7">
 
 ※ Cover image: [ZDNet](https://www.zdnet.com/article/russian-police-raid-nginx-moscow-office/)
 
-</span>
+</div>

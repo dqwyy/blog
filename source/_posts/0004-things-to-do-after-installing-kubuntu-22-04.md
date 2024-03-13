@@ -72,8 +72,8 @@ Install the apt package `python-is-python3` and edit `~/.config/electron-ssr/sha
 - Double click the icon at the window title bar doesn't close the window.
 
 ----
-<span class="is-size-7">
+<div class="is-size-7">
 
 ※ Cover image: [Kubuntu](https://kubuntu.org/)
 
-</span>
+</div>

@@ -5,7 +5,7 @@ tags: Technology
 id: '0001'
 toc: true
 date: 2022-06-25 20:43:15
-cover: https://z1.ax1x.com/2023/12/06/pic63uD.png
+cover: https://cdn.jsdelivr.net/gh/dqwyy/blog-img/0001/00.png
 ---
 
 I built my blog on July 27, 2017 by using [GitHub Pages](https://pages.github.com/) and [Hexo](https://hexo.io/). After that I post some articles on it, not too many, just 4 posts, then I dropped it. The latest post was post on July 27, 2018. This means that the blog was only active for one year, then it became inactive although it was still online. There are two reasons for this result. One is that I was too lazy to update it, the other is that I tried to write posts in English so that more people can understand, however I am not a native English speaker, my English skill is not good enough for me to write posts. Sometimes I have something to be written down, I can express it well in Chinese easily but when I try using English, I can't even express what I want to say well.

@@ -219,9 +219,9 @@ Maybe you want to know how to remove the trojan completely. To be honest, so do 
 You can Google "zed.exe" for more informations and solutions, good luck.
 
 ----
-<span class="is-size-7">
+<div class="is-size-7">
 
 ※ Cover image: [PerfectHue](https://www.flickr.com/photos/jason_benjamin/8632995866)
 
-</span>
+</div>
 
