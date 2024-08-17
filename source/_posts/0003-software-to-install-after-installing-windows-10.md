@@ -5,7 +5,7 @@ tags: Technology
 id: '0003'
 toc: true
 date: 2022-06-27 19:25:47
-cover: https://wipwebprodcdnv2.blob.core.windows.net/wipmedia/sites/8/2020/06/Wallpaper-hero-vp5.png
+cover: 'https://wip-web-cdn.azureedge.net/wipmedia/sites/8/2020/06/Wallpaper-hero-vp5.png'
 ---
 
 After installing Windows 10, some neccessary software should be installed. Luckily, there aren't [as many settings to do as Ubuntu](/0002).

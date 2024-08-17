@@ -2,9 +2,3 @@ User-agent: *
 Disallow: /archives/
 Disallow: /categories/
 Disallow: /tags/
-
-User-agent: ia_archiver
-Disallow: /
-
-User-agent: archive.org_bot
-Disallow: /
