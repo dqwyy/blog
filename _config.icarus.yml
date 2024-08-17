@@ -190,7 +190,7 @@ widgets:
         # Author's current location
         location: Teochew, China
         # URL or path to the avatar image
-        avatar: https://cdn.jsdelivr.net/gh/dqwyy/blog-img/0000/avatar.jpg
+        avatar: https://cdn.jsdmirror.com/gh/dqwyy/blog-img/0000-META/avatar.jpg
         # Whether show the rounded avatar image
         avatar_rounded: true
         # URL or path for the follow button
@@ -274,6 +274,6 @@ providers:
     # Name or URL template of the JavaScript and/or stylesheet CDN provider
     cdn: jsdelivr
     # Name or URL template of the webfont CDN provider
-    fontcdn: google
+    fontcdn: loli
     # Name or URL of the fontawesome icon font CDN provider
     iconcdn: fontawesome

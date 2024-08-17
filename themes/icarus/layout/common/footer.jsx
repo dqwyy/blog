@@ -44,7 +44,7 @@ class Footer extends Component {
                                 dangerouslySetInnerHTML={{ __html: visitorCounterTitle }}></span> : null}
                         </p>
                         <p class="is-size-7" style="text-transform:uppercase;">
-                            <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" style="color:#4a4a4a;">CC0</a> ⓪ 2017-<script>document.write( new Date().getFullYear() );</script> <a href="https://dqwyy.moe" target="_blank" style="color:#4a4a4a;">dqwyy</a>. No right reserved unless otherwise noted.
+                            <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" style="color:#4a4a4a;">CC0</a> ⓪ 2017-<script>document.write( new Date().getFullYear() );</script> <a href="https://dqwyy.moe" target="_blank" style="color:#4a4a4a;">dqwyy</a>. <abbr title="Unless otherwise noted.">No right reserved</abbr>.
                         </p>
                     </div>
                     <div class="level-end">
