@@ -5,7 +5,7 @@ tags: Technology
 id: '0006'
 toc: false
 date: 2023-03-28 13:19:44
-cover: https://japan.zdnet.com/storage/2019/12/16/90ea835f97305edaa324d8c8a9226cf8/nginx.png
+cover: 'https://japan.zdnet.com/storage/2019/12/16/90ea835f97305edaa324d8c8a9226cf8/nginx.png'
 ---
 
 Sometimes we will have the need to share files to other people. If it is just a small file, such as a word document or an image with the size smaller than 5 MB, then sending it via email or instant messaging apps like WeChat will be enough. However, when it comes to large files such as videos, email or instant messaging apps won't allow you to send because they have the size limitation for the attachment. Maybe someone will use cloud storage service like Google Drive, OneDrive, Baidu Netdisk and Mega.nz but these aren't the best choice because you need to upload your files to their server and other people will download them from their server, this is not peer-to-peer, it will cost double time or even more if the server limits your download speed. So I think the best solution is to serve the files locally, of course you will need a public IP address before doing this. I will take Ubuntu for example.
@@ -45,8 +45,8 @@ sudo nginx -s reload
 Then config the port forwarding on your router and now the files under `/home/dqwyy/www/` will be accessible on <http://yourdomain.com:8000>.
 
 ----
-<div class="is-size-7">
+<footer class="is-size-7">
 
 ※ Cover image: [ZDNet](https://www.zdnet.com/article/russian-police-raid-nginx-moscow-office/)
 
-</div>
+</footer>

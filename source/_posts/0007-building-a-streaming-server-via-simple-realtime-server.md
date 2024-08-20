@@ -5,7 +5,7 @@ tags: Technology
 id: '0007'
 toc: true
 date: 2023-03-29 16:49:48
-cover: https://obsproject.com/assets/images/features-new/hero.png
+cover: 'https://obsproject.com/assets/images/features-new/hero.png'
 ---
 
 As we know, there are some existing streaming services like Twitch and Bilibili. They may be the most common choice for most people, however, these are public services. Not every time you want to stream to public, sometimes you just want to stream to your friends. Besides, these commercial and public streaming services usually don't provide the original steaming links to you, which means you cannot watch steaming on your local video player. Therefore, building a steaming server by your own is kind of necessary.
@@ -29,8 +29,8 @@ According to the official tutorial, here are the 3 methods to watch.
 I would recommend the H5 HLS m3u8 one since you can watch it on VRChat and mobile phone. The WebRTC one is also cool because you can watch it online even on PC web browser, just remember the forward the port on your router.
 
 ----
-<div class="is-size-7">
+<footer class="is-size-7">
 
 ※ Cover image: [OBS Project](https://obsproject.com/)
 
-</div>
+</footer>

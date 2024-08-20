@@ -137,7 +137,7 @@ article:
         # https://github.com/highlightjs/highlight.js/tree/master/src/styles
         theme: atom-one-light
         # Show copy code button
-        clipboard: false
+        clipboard: true
         # Default folding status of the code blocks. Can be "", "folded", "unfolded"
         fold: unfolded
     # Whether to show estimated article reading time
