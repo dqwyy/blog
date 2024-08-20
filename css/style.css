@@ -412,7 +412,7 @@ button,
 input,
 select,
 textarea {
-  font-family: 'Nimbus Sans', 'FreeSans', 'Arial', 'Roboto', 'Yunlin Sans', 'Source Han Sans KR', 'Noto Sans CJK KR', 'Microsoft JhengHei', sans-serif;
+  font-family: 'Twemoji Mozilla', 'Noto Color Emoji', 'Nimbus Sans', 'FreeSans', 'Arial', 'Roboto', 'Yunlin Sans', 'Source Han Sans KR', 'Noto Sans CJK KR', 'Microsoft JhengHei', sans-serif;
 }
 code,
 pre {
@@ -1063,13 +1063,13 @@ a.has-text-grey-lightest:focus {
   font-weight: 700 !important;
 }
 .is-family-primary {
-  font-family: 'Nimbus Sans', 'FreeSans', 'Arial', 'Roboto', 'Yunlin Sans', 'Source Han Sans KR', 'Noto Sans CJK KR', 'Microsoft JhengHei', sans-serif !important;
+  font-family: 'Twemoji Mozilla', 'Noto Color Emoji', 'Nimbus Sans', 'FreeSans', 'Arial', 'Roboto', 'Yunlin Sans', 'Source Han Sans KR', 'Noto Sans CJK KR', 'Microsoft JhengHei', sans-serif !important;
 }
 .is-family-secondary {
-  font-family: 'Nimbus Sans', 'FreeSans', 'Arial', 'Roboto', 'Yunlin Sans', 'Source Han Sans KR', 'Noto Sans CJK KR', 'Microsoft JhengHei', sans-serif !important;
+  font-family: 'Twemoji Mozilla', 'Noto Color Emoji', 'Nimbus Sans', 'FreeSans', 'Arial', 'Roboto', 'Yunlin Sans', 'Source Han Sans KR', 'Noto Sans CJK KR', 'Microsoft JhengHei', sans-serif !important;
 }
 .is-family-sans-serif {
-  font-family: 'Nimbus Sans', 'FreeSans', 'Arial', 'Roboto', 'Yunlin Sans', 'Source Han Sans KR', 'Noto Sans CJK KR', 'Microsoft JhengHei', sans-serif !important;
+  font-family: 'Twemoji Mozilla', 'Noto Color Emoji', 'Nimbus Sans', 'FreeSans', 'Arial', 'Roboto', 'Yunlin Sans', 'Source Han Sans KR', 'Noto Sans CJK KR', 'Microsoft JhengHei', sans-serif !important;
 }
 .is-family-monospace {
   font-family: monospace !important;
@@ -11587,7 +11587,7 @@ figure.highlight .section {
 .cc-window,
 .cc-revoke {
   font-size: 1.1rem !important;
-  font-family: 'Nimbus Sans', 'FreeSans', 'Arial', 'Roboto', 'Yunlin Sans', 'Source Han Sans KR', 'Noto Sans CJK KR', 'Microsoft JhengHei', sans-serif !important;
+  font-family: 'Twemoji Mozilla', 'Noto Color Emoji', 'Nimbus Sans', 'FreeSans', 'Arial', 'Roboto', 'Yunlin Sans', 'Source Han Sans KR', 'Noto Sans CJK KR', 'Microsoft JhengHei', sans-serif !important;
 }
 .cc-window {
   color: #4a4a4a !important;
