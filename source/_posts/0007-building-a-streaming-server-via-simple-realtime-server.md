@@ -10,9 +10,8 @@ cover: 'https://obsproject.com/assets/images/features-new/hero.png'
 
 As we know, there are some existing streaming services like Twitch and Bilibili. They may be the most common choice for most people, however, these are public services. Not every time you want to stream to public, sometimes you just want to stream to your friends. Besides, these commercial and public streaming services usually don't provide the original steaming links to you, which means you cannot watch steaming on your local video player. Therefore, building a steaming server by your own is kind of necessary.
 
-While searching tutorials on the Internet, I found out most of the tutorials are too complicated. Many of them requires you to use Nginx, so you need to configure a lot. This is not what I want, I need something easier and purer. Luckily I found [Simple Realtime Server](https://github.com/ossrs/srs) (SRS) on GitHub finally.
-
 <!-- MORE -->
+While searching tutorials on the Internet, I found out most of the tutorials are too complicated. Many of them requires you to use Nginx, so you need to configure a lot. This is not what I want, I need something easier and purer. Luckily I found [Simple Realtime Server](https://github.com/ossrs/srs) (SRS) on GitHub finally.
 
 ## Install
 Since I have a public IP for my home network, I am going to host the streaming server on my local Windows machine. The official executable file for Windows has been released on GitHub already, we just need to download, install and launch it. If you are using Linux, then just follow the tutorial on their official website to run in docker with one line of codes. In order to make the stream accessible publicly, we need to configure our router to forward the port `8080`.

@@ -12,6 +12,7 @@ After installing Windows 10, some neccessary software should be installed. Lucki
 
 ## Install Windows
 This is the *Step 0*. Windows 10 can be downloaded [officially from Microsoft](https://www.microsoft.com/en-us/software-download/windows10), choose Windows 10 *Pro* edition while installing. However, I prefer the LTSC (Long Term Servicing Channel) edition. Windows 10 Enterprise LTSC 2021 can be downloaded [here](https://isofiles.bd581e55.workers.dev/Windows%2010/Windows%2010%20Enterprise%20LTSC%202021/), here is an ed2k link for it too but I don't think there are enough seeders. Make sure *not* to download the [evaluation edition](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-10-enterprise) from Microsoft official website.
+
 <!-- MORE -->
 ```
 ed2k://|file|en-us_windows_10_enterprise_ltsc_2021_x64_dvd_d289cf96.iso|4899461120|A4C788644C4B18BC50A1DE3F2DB1E1B6|h=KM5YNTMBBWBRVDOA6DRONYJM4TKQH357|/
