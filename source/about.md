@@ -19,4 +19,3 @@ title: About
 - [啊賢](https://www.cnblogs.com/Aquakinn/)
 - [Denn Jang](https://dennjang.github.io/)
 - [gq's blog](https://zgq.ink/)
-- [Radiofun-Hongの网站](https://www.rhba7jwe.top/)
