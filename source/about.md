@@ -14,6 +14,13 @@ title: About
 - ✨ **Icons**: [Font Awesome v5](https://fontawesome.com/), [Twemoji](https://cdn.jsdelivr.net/npm/twemoji@12.0.2/)
 - ⚖️ **License:** [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/), unless quoted contents or otherwise noted
 
+## Article Tags
+- **[# Entertainment](/tags/Entertainment/):** anime, comic, games, dramas, movies, music
+- **[# Language](/tags/Language/):** languages, scripts, fonts, dictionaries
+- **[# Life](/tags/Life/):** reading, shopping, traveling
+- **[# Science](/tags/Science/):** chemistry, medicle, math
+- **[# Technology](/tags/Technology/):** computer
+
 ## Friend Links
 - [地球不适外星包](https://huajia.163.com/profile/PBZQWbD8)
 - [啊賢](https://www.cnblogs.com/Aquakinn/)
