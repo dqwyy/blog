@@ -10815,6 +10815,10 @@ article.media .title {
   word-wrap: break-word;
   font-size: 1.1rem;
 }
+.article .content a img {
+  margin: auto;
+  display: block;
+}
 .article .content h1 {
   font-size: 1.75em;
   font-weight: bold;
