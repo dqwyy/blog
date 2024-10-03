@@ -1,0 +1,10 @@
+磁盘读写速度比较
+Ubuntu UI不合理之处
+联合早报推荐
+mc迁移至fbrac
+transmission网速限制
+bt与ed2k
+翻盖机
+旧字型字体
+
+https://www.kubuntuforums.net/forum/currently-supported-releases/kubuntu-24-04-nitpick-noble-lts/pre-installation-ay/681433-another-24-04-windows-dual-boot-fail

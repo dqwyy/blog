@@ -199,7 +199,7 @@ sudo apt install gnome-tweaks chrome-gnome-shell
 - [User Themes](https://extensions.gnome.org/extension/19/user-themes/)
 - [ibus font setting](https://extensions.gnome.org/extension/1121/ibus-font-setting/)
 - [Dynamic Panel Transparency](https://extensions.gnome.org/extension/1011/dynamic-panel-transparency/)
-- [Unite](https://extensions.gnome.org/extension/1287/unite/), move the close button to top-lest corner, not a best solution for me but so far the best solution, *alternatively [Dash to Panel](https://extensions.gnome.org/extension/1160/dash-to-panel/), or just switch to [KDE](https://kde.org/) from Gnome.*
+- [Unite](https://extensions.gnome.org/extension/1287/unite/), move the close button to top-left corner, not a best solution for me but so far the best solution, *alternatively [Dash to Panel](https://extensions.gnome.org/extension/1160/dash-to-panel/), or just switch to [KDE](https://kde.org/) from Gnome.*
 - [Internet Speed Monitor](https://extensions.gnome.org/extension/4585/internet-speed-monitor/), not the one with the most config options but the default style is enough for me.
 
 ## Manage applications view
@@ -211,10 +211,6 @@ Not sure about the exact name, I mean the view when you click the *Show Applicat
 alias ll='ls -alFh'
 alias la='ls -AF'
 alias l='ls -CF'
-
-alias cp='cp -i'
-alias mv='mv -i'
-alias dtrx='dtrx -v'
 ```
 
 ## Install some software

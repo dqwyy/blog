@@ -32,7 +32,7 @@ class Footer extends Component {
                     <div class="level-start">
                         <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">
                             <img src="https://vrcteo.dqwyy.moe/image/cc-zero.svg" alt="CC0 1.0" title="CC0 1.0" />
-                        </a><b style="margin-left:0.5em; font-size:20px; font-family:Nimbus Roman, FreeSerif, Times New Roman, Noto Serif, Serif;">DQWYY <img src="https://cdn.jsdmirror.com/npm/twemoji@12.0.2/2/svg/1f1f8-1f1f4.svg" width="25" alt="★" title="flag of Somalia emoji by Twemoji" /> BLOG</b>
+                        </a><b style="margin-left:0.5em; font-size:20px; font-family:'Nimbus Roman', 'FreeSerif', 'Times New Roman', 'Noto Serif', Serif;">DQWYY <img src="https://cdn.jsdmirror.com/npm/twemoji@12.0.2/2/svg/1f1f8-1f1f4.svg" width="25" alt="★" title="flag of Somalia emoji by Twemoji" /> BLOG</b>
                         <p class="is-size-7" style="margin-top:1ex;">
                             Powered by&nbsp;
                             <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>,&nbsp;
