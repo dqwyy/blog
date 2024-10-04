@@ -9,7 +9,7 @@ date: 2024-10-02 23:36:53
 ---
 <section lang="zh-TW">
 
-種子下載我平時很常用，像是下載動漫、電影或者遊戲都會用到，而一些資源體積較大，或者是因為做種者太少而下載速度較慢，往往需要較長的下載時間，一些缺少做種者的種子甚至需要數天乃至數月的時間斷斷續續才能下載完成。因此，家中的x86小主機除了充當[我的世界伺服器](/0013/)的職能之外，也被我拿來作為種子下載器。關於種子客戶端，在Linux伺服器上的選擇不如在Windows上的選擇多，甚至一些種子用戶端有Linux版本，但是沒有命令行常駐程式<small>(daemon)</small>版本，所以沒法使用。而Transmission則是Linux中最常用的種子用戶端，而且資歷也最老，所以就成為了包括我在內的多數人的選擇。
+種子下載我平時很常用，像是下載動漫、電影或者遊戲都會用到，而一些資源體積較大，或者是因為做種者太少而下載速度較慢，往往需要較長的下載時間，一些缺少做種者的種子甚至需要數天乃至數月的時間斷斷續續才能下載完成。因此，家中的x86小主機除了充當[我的世界伺服器](/0013/)的職能之外，也被我拿來作為種子下載器。關於種子用戶端，在Linux伺服器上的選擇不如在Windows上的選擇多，甚至一些種子用戶端有Linux版本，但是沒有命令行常駐程式<small>(daemon)</small>版本，所以沒法使用。而Transmission則是Linux中最常用的種子用戶端，而且資歷也最老，所以就成為了包括我在內的多數人的選擇。
 
 <!-- MORE -->
 ## 安裝
@@ -49,14 +49,15 @@ transmission-daemon的設定檔案位於`/etc/transmission-daemon/settings.json`
 ```
 
 ## 安裝網頁版RPC用戶端
-有了網頁版用戶端，後續操作會簡單得多。這裡使用的是[transmission-web-control](https://github.com/ronggang/transmission-web-control)。
+有了網頁版用戶端，後續操作會簡單得多。這裡使用的是[Transmission Web Control](https://github.com/ronggang/transmission-web-control)。
 ```bash
 wget https://gitee.com/culturist/transmission-web-control/raw/master/release/install-tr-control-gitee.sh
 sudo chmod +x install-tr-control-gitee.sh
 sudo bash install-tr-control-gitee.sh
 ```
 
-安裝完畢之後，主要設定的項目是下載與上傳的限速，其他的沒有什麼特別需要修改的，保持預設狀態即可。
+安裝完畢之後，主要設定的項目是下載與上傳的限速，其他的沒有什麼特別需要修改的，保持預設狀態即可。我家裡網路頻寬不是很高，下行頻寬100Mbps，上行頻寬只有20Mbps，加上不止我一個人使用，所以我必須限制好BT用戶端的速度，特別是上傳速度，避免佔用過多頻寬而影響其他設備的正常使用。Transmission提供了正常限速與替代限速，其中替代限速用了一個烏龜的符號表示，所以其本意應該是正常限速是比較快的，也是常規的，替代限速是臨時使用的，也是比較慢的。不過也不一定要按照這樣去理解，根據我的實際情況，我把正常限速理解為常時速度，替代限速理解為閒時速度。我將常時速度限制為下載2MB/s，上傳200KB/s；閒時速度限制為下載4MB/s，上傳800KB/s，當家裡沒人的時候就用計畵任務開啓閒時速度。另外我自己在用的電腦也有在做種，也順便設置了限速，常時速度限制為下載2MB/s，上傳400KB/s；閒時速度限制為下載3MB/s，上傳600KB/s。
+
 
 ## 更改下載目錄
 transmisson-daemon預設的下載目錄是`/var/lib/transmission-daemon/downloads/`，這個目錄位於根目錄下，不方便管理，而且像很多人會把硬碟分區，一個分區給根目錄，另一個分去給家目錄，方便後續重灌系統的時候能夠保留個人檔案。因此把種子下載目錄更改到家目錄下是更為合理的做法。當然如果你的硬碟沒有向我這樣把家目錄單獨分區，那麼我就更推薦你維持預設的下載目錄。
@@ -84,9 +85,9 @@ sudo find /home/debian-transmission/seeding -type f -exec chmod 664 {} \;       
 
 sudo usermod -a -G debian-transmission dqwyy  #將自己的用戶加入debian-transmission組中
 groups dqwyy                                  #檢查是否成功加入組中
-```
 
-如此功成。
+ln -s /home/debian-transmission/seeding /home/dqwyy/seeding  #創建符號連結方便使用
+```
 
 </section>
 

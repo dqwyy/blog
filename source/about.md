@@ -9,7 +9,7 @@ title: About
 - 📅 **Since:** July 2017 (remake June 2022)
 - 🌐 **Languages:** English and Chinese
 - 🔌 **Powered by:** [GitHub Pages](https://pages.github.com/), [Hexo](https://hexo.io/) and [Bulma](https://bulma.io/)
-- 🚀 **CDN**: [jsDelivr](https://www.jsdelivr.com/), [JSDMirror](https://cdn.jsdmirror.com/), [聚合图床](https://www.superbed.cn/)
+- 🚀 **CDN**: [jsDelivr](https://www.jsdelivr.com/), [JSDMirror](https://blog.jsdmirror.com/), [聚合图床](https://www.superbed.cn/)
 - 🎨 **Theme:** [Icarus](https://github.com/ppoffice/hexo-theme-icarus) by ppoffice
 - ✨ **Icons**: [Font Awesome v5](https://fontawesome.com/), [Twemoji](https://cdn.jsdelivr.net/npm/twemoji@12.0.2/)
 - ⚖️ **License:** [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/), unless quoted contents or otherwise noted

@@ -8,13 +8,15 @@ date: 2022-06-27 19:25:47
 cover: 'https://wip-web-cdn.azureedge.net/wipmedia/sites/8/2020/06/Wallpaper-hero-vp5.png'
 ---
 
-After installing Windows 10, some neccessary software should be installed. Luckily, there aren't [as many settings to do as Ubuntu](/0002).
+After installing Windows 10, some necessary software should be installed. Luckily, there aren't [as many settings to do as Ubuntu](/0002).
 
 ## Install Windows
-This is the *Step 0*. Windows 10 can be downloaded [officially from Microsoft](https://www.microsoft.com/en-us/software-download/windows10), choose Windows 10 *Pro* edition while installing. However, I prefer the LTSC (Long Term Servicing Channel) edition. Windows 10 Enterprise LTSC 2021 can be downloaded [here](https://isofiles.bd581e55.workers.dev/Windows%2010/Windows%2010%20Enterprise%20LTSC%202021/), here is an ed2k link for it too but I don't think there are enough seeders. Make sure *not* to download the [evaluation edition](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-10-enterprise) from Microsoft official website.
+This is the *Step 0*. Windows 10 can be downloaded [officially from Microsoft](https://www.microsoft.com/en-us/software-download/windows10), choose Windows 10 *Pro* edition while installing. However, I prefer the LTSC (Long Term Servicing Channel) edition. Windows 10 Enterprise LTSC 2021 can be downloaded <s>[here](https://isofiles.bd581e55.workers.dev/Windows%2010/Windows%2010%20Enterprise%20LTSC%202021/)</s> (now at [rg-adguard](https://files.rg-adguard.net/file/19a36b7b-269b-ebf8-105b-a375f70b7ae2), [BUZZHEAVIER](https://buzzheavier.com/f/GUSqcDzB8AA), or via [<i class="fas fa-magnet"></i> Magnet Link](magnet:?xt=urn:btih:1e6df62f63977c453a00e2955bdd5ec5e318f342&dn=en-us_windows_10_enterprise_ltsc_2021_x64_dvd_d289cf96.iso&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce)), here is an [ed2k link](ed2k://|file|en-us_windows_10_enterprise_ltsc_2021_x64_dvd_d289cf96.iso|4899461120|A4C788644C4B18BC50A1DE3F2DB1E1B6|h=KM5YNTMBBWBRVDOA6DRONYJM4TKQH357|/) for it too but maybe there aren't enough seeders. Make sure *not* to download the [evaluation edition](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-10-enterprise) from Microsoft official website.
 
 <!-- MORE -->
 ```
+magnet:?xt=urn:btih:1e6df62f63977c453a00e2955bdd5ec5e318f342&dn=en-us_windows_10_enterprise_ltsc_2021_x64_dvd_d289cf96.iso&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce
+
 ed2k://|file|en-us_windows_10_enterprise_ltsc_2021_x64_dvd_d289cf96.iso|4899461120|A4C788644C4B18BC50A1DE3F2DB1E1B6|h=KM5YNTMBBWBRVDOA6DRONYJM4TKQH357|/
 ```
 
@@ -50,8 +52,10 @@ slmgr /dli
 slmgr /xpr
 ```
 
+The system costs about 17GiB of disk at the very beginning but grew up to 26GiB soon after installing the updates.
+
 ## Firefox ESR
-Firefox is my favourate web browser and I prefer the [ESR](https://www.mozilla.org/en-US/firefox/enterprise/) (Extended Support Release) edition because I don't like updates. I may stay at the [78.15.0esr](https://ftp.mozilla.org/pub/firefox/releases/78.15.0esr/) version.
+Firefox is my favorite web browser and I prefer the [ESR](https://www.mozilla.org/en-US/firefox/enterprise/) (Extended Support Release) edition because I don't like updates. I may stay at the [78.15.0esr](https://ftp.mozilla.org/pub/firefox/releases/78.15.0esr/) version.
 
 ## Chinese IME
 - [Rime](https://rime.im/)
@@ -59,7 +63,7 @@ Firefox is my favourate web browser and I prefer the [ESR](https://www.mozilla.o
 If you are just a Pinyin IME user, then the build-in Microsoft Pinyin IME will be enough. Sogou Pinyin IME is also another popular Chinese IME.
 
 ## Windows Photo Viewer
-*Photos* replaced *Windows Photo Viewer* as the default and *only* photo viewer in Windows 10, I prefer the old Windows Photo Viewer. Import [the Registry file <i class="fas fa-download"></i>](https://www.tenforums.com/attachments/tutorials/198320d1533487488-restore-windows-photo-viewer-windows-10-a-restore_windows_photo_viewer_all_users.reg) provoded by [Shawn Brink from TenForums](https://www.tenforums.com/tutorials/14312-restore-windows-photo-viewer-windows-10-a.html) then Windows Photo Viewer will be back.
+*Photos* replaced *Windows Photo Viewer* as the default and *only* photo viewer in Windows 10, I prefer the old Windows Photo Viewer. Import [the Registry file <i class="fas fa-download"></i>](https://www.tenforums.com/attachments/tutorials/198320d1533487488-restore-windows-photo-viewer-windows-10-a-restore_windows_photo_viewer_all_users.reg) provided by [Shawn Brink from TenForums](https://www.tenforums.com/tutorials/14312-restore-windows-photo-viewer-windows-10-a.html) then Windows Photo Viewer will be back.
 
 ```plaintext Restore_Windows_Photo_Viewer_ALL_USERS.reg >folded
 Windows Registry Editor Version 5.00
@@ -350,7 +354,7 @@ SHA256: 37d68f273d0479adec08db3a75bd229c6fad121894ae9bd456fedd8b5f2d2ede
 - [ShadowsocksR](https://github.com/shadowsocksrr/shadowsocksr-csharp/releases)
 
 ## Torrent
-- [Transmission](https://transmissionbt.com/download/), but the default user interface is too simple so that it lacks many neccessary functions, [Transmission Web Control](https://github.com/ronggang/transmission-web-control) will enhance it.
+- [Transmission](https://transmissionbt.com/download/), but the default user interface is too simple so that it lacks many necessary functions, [Transmission Web Control](https://github.com/ronggang/transmission-web-control) will enhance it.
 - [qBittorrent](https://www.qbittorrent.org/download.php), I used it before but not any more because it always says "Saving torrent progress" when I am shutting down my computer, and this will prevent my computer from shutting down, [someone else was also suffering this bug](https://github.com/qbittorrent/qBittorrent/issues/10014).
 
 ## Screen recording
