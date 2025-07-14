@@ -19,8 +19,10 @@ Ubuntu伺服器版有一個最大的特點，就是沒有桌面環境，其他Li
 ```bash
 sudo apt install xvfb
 sudo apt install x11vnc
+sudo apt install fonts-noto-cjk   # 安裝思源黑體以顯示中文
 wget 'https://dldir1.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.15_241210_amd64_01.deb'
 sudo dpkg -i QQ_3.2.15_241210_amd64_01.deb
+
 screen -S qq   # 新建一個背景節點給QQ用，這樣子可以使其在斷開SSH連結後仍然可以在背景執行
 export DISPLAY=:1   # 將當前定義為1號顯示器
 nohup Xvfb :1 &   # 在1號顯示器啓動Xvfb模擬環境
