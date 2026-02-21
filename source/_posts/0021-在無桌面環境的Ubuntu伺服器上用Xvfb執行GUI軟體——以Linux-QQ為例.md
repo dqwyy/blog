@@ -4,7 +4,7 @@ categories: Chinese
 tags: Technology
 id: '0021'
 toc: false
-cover: 'https://img.linux.net.cn/data/attachment/album/202303/02/175131soq4mqef2pog1fgq.jpg'
+cover: 'https://pic1.imgdb.cn/item/6993119dc15d9f0177905083.jpg'
 date: 2024-12-15 00:17:04
 ---
 <section lang="zh-TW">
@@ -41,6 +41,6 @@ x11vnc -forever -rfbauth .vnc/passwd -display :1   # 為1號顯示器啓動VNC�
 ----
 <footer class="is-size-7">
 
-※ Cover image: [Linux中國](https://linux.cn/article-15590-1.html)
+※ Cover image: [Linux中國](https://web.archive.org/web/20250318105052/https://linux.cn/article-15590-1.html)
 
 </footer>

@@ -5,7 +5,7 @@ tags: Technology
 id: '0004'
 toc: true
 date: 2022-07-13 13:36:15
-cover: 'https://kubuntu.org/wp-content/uploads/2022/04/ba56/jellyfishbanner.png'
+cover: 'https://kubuntu.org/archives/wp-content/uploads/2022/04/ba56/jellyfishbanner.png'
 ---
 I dropped Ubuntu because of [the user interface of Gnome](/0002), and then KDE came to my eyes. I was looking for a desktop environment that has the taskbar at the bottom and without top bar, just like Windows, then I found KDE. The other reason why I choose KDE is that the theme color of it is blue, my favorite color, while Ubuntu uses the orange color as the theme color, I don't like orange. I tried Kubuntu 20.04 LTS when 22.04 LTS hasn't released. I was not satisfied with the Application Launcher (Start Menu) of 20.04, which was using Plasma 5.18 LTS, there was no option for me to view all applications sorted by alphabet, all the applications are categorized, although I could use other Application Launcher. Luckily, Kubuntu 22.04 LTS was released on April 21, 2022, together with KDE Plasma 5.24 LTS and its new Application Launcher with the feature that sorts all the applications by alphabet, this is a *necessary* function. I downloaded it from [USTC Mirror](https://mirrors.ustc.edu.cn/ubuntu-cdimage/kubuntu/releases/jammy/release/) and installed it in my computer. The fresh minimal installed Kubuntu cost 12GiB of disk.
 
@@ -75,6 +75,6 @@ Install the apt package `python-is-python3` and edit `~/.config/electron-ssr/sha
 ----
 <footer class="is-size-7">
 
-※ Cover image: [Kubuntu](https://kubuntu.org/)
+※ Cover image: [Kubuntu](https://kubuntu.org/archives/xmlrpc.php%3Frsd.html)
 
 </footer>
